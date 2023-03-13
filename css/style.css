@@ -54,6 +54,11 @@ body {
     transition: background-color 0.2s ease;
 }
 
+.btn2 {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
 .btn:hover {
     background-color: #0066cc;
 }
@@ -69,6 +74,13 @@ body {
     background-color: #f5f5f5;
     margin-bottom: 10px;
 }
+
+.box > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 575px) {
     .box {
         width: 90%;
